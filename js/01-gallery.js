@@ -11,7 +11,7 @@ function imgValueFromGalleryItems(values) {
       class="gallery__image"
       src="${ preview }"
       data-source="${original}"
-      alt="Image description"
+      alt="${description}"
     />
   </a>
 </div>
