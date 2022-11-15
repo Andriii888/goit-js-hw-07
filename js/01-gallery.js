@@ -35,11 +35,10 @@ function onZoomClickedImg(e) {
 `)
     instance.show();
 
-
     const escBox = document.querySelector('.basicLightbox');
     document.addEventListener('keydown', (e) => {
         if (e.key === "Escape") {
-            escBox.remove();
+            instance.close();
        }
     });
 };
